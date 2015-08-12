@@ -1,0 +1,5 @@
+/_build
+/deps
+/rel/alt
+erl_crash.dump
+*.ez

@@ -1,0 +1,8 @@
+%{"bbmustache": {:hex, :bbmustache, "1.0.1"},
+  "conform": {:hex, :conform, "0.16.0"},
+  "erlware_commons": {:hex, :erlware_commons, "0.13.0"},
+  "exrm": {:git, "https://github.com/bitwalker/exrm.git", "7a150eb4c234ef0d992c9cb087f54781ed43ed5c", [branch: "master"]},
+  "getopt": {:hex, :getopt, "0.8.2"},
+  "neotoma": {:hex, :neotoma, "1.7.3"},
+  "providers": {:hex, :providers, "1.4.1"},
+  "relx": {:hex, :relx, "3.1.0"}}
