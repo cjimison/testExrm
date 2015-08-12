@@ -33,8 +33,8 @@ mix release
 ./rel/main/bin/console
 ```
 
-NOTE:  In this verison you will see that although "util" was added as an application in the mix.exs it is not started
-because the "alt" is also included in the application list, however alt has :util marked as an included_application
+NOTE:  In this verison you will see that although "util" was directly added as an application in the mix.exs it is not started
+because "alt" is also included in the application list, an "alt" has "util" marked as an included_application
 
 Running the "alt" Application:
 
