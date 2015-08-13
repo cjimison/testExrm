@@ -13,13 +13,14 @@ defmodule Main.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :util, :alt],
+    [applications: [:logger, :alt],
+     included_applications: [],
      mod: {Main, []}]
   end
 
   defp deps do
     [
-        {:exrm,     git: "https://github.com/bitwalker/exrm.git",       branch: "master"},
+        {:exrm, path: "../../../exrm"},
         {:alt,      in_umbrella: true},
         {:util,     in_umbrella: true}
     ]
