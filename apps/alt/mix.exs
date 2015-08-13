@@ -20,7 +20,7 @@ defmodule Alt.Mixfile do
 
   defp deps do
     [
-        {:exrm,     git: "https://github.com/bitwalker/exrm.git",       branch: "master"},
+        {:exrm, path: "../../../exrm"},
         {:util,     in_umbrella: true}
     ]
   end

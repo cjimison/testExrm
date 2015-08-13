@@ -6,7 +6,11 @@ defmodule Main do
   # for more information on OTP Applications
   def start(_type, _args) do
     import Supervisor.Spec, warn: false
+
     Logger.debug("[Main Application] Started") 
+
+    Application.ensure_started(:util)
+
     children = [
       # Define workers and child supervisors to be supervised
       # worker(Main.Worker, [arg1, arg2, arg3])

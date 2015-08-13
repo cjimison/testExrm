@@ -21,8 +21,6 @@ defmodule TestExrm.Mixfile do
   # Dependencies listed here are available only for this project
   # and cannot be accessed from applications inside the apps folder
   defp deps do
-    [
-        {:exrm,     git: "https://github.com/bitwalker/exrm.git",       branch: "master"}
-    ]
+    [{:exrm, path: "../exrm"}]
   end
 end
